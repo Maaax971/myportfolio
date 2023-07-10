@@ -1,0 +1,23 @@
+.mySwiper {
+    gap: 2em;
+    margin-bottom: 1em;
+    padding: 1em;
+}
+.swiper-slide{
+    padding: 2em;
+    background-color: hsl(208, 35%,  10%);
+    gap: 20px;
+}
+.swiper-wrapper{
+    margin-bottom: 3em;
+}
+.company-name {
+    color: hsl(208, 35%, 70%);
+}
+.span-date {
+    color: hsl(37, 59%, 60%);
+    font-style: italic;
+}
+.swiper-pagination {
+    bottom: -20px;
+}

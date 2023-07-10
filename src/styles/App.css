@@ -1,0 +1,14 @@
+.App{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 100vh;
+    background-color: hsl(208, 35%, 25%);
+}
+h1, h2, h3, p {
+    color: hsl(208, 35%, 100%);
+}
+
+span, li {
+    color: hsl(208, 35%, 100%);
+}

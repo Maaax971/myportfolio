@@ -1,0 +1,9 @@
+.content-div{
+    display: flex;
+}
+.sidebar-div {
+    width: 40vw;
+}
+.resume-div{
+    width: 60vw;
+}
