@@ -18,20 +18,20 @@ export const experienceList = [
         title : 'Technicien de recherche',
         company : 'Université des Antilles',
         date : 'Janvier 2021 - Juillet 2021',
-        description : ''
+        description : `Etude d'impact environnemental des pratiques agricoles. Mise en place de protocoles expérimentaux, identification de l'entomofaune(microfaune et macrofaune du sol), analyses physico-chimiques du sol. Rédaction du cahier de laboratoire. Recherche bibliographique'`
     },
     {
         id : 4,
         title : 'Stage de Master en écologie des sols',
         company : 'Université des Antilles / INRAe',
         date : 'Janvier 2020 - Septembre 2020',
-        description : ''
+        description : `Etude d'impact environnemental sur l'entomofaune de mangrove. Mise en place de protocoles expérimentaux, identification de l'entomofaune (microfaune et macrofaune du sol), analyses physico-chimiques du sol. Rédaction du mémoire de Master, recherche bibliographique'`
     },
     {
         id : 5,
         title : 'Assistant vétérinaire',
         company : 'Clinique vétérinaire Chaussecourte et Houdas',
         date : '2015 - 2016',
-        description : ''
+        description : `Accueil des clients, prises de rendez-vous, conseils et vente de produits pour le soin et l'alimentation animale. Techniques de contention, assistance auprès du vétérinaire. `
     }
 ]

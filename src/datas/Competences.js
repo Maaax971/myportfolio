@@ -2,7 +2,7 @@
 import htmlico from "../assets/img/html.svg"
 import cssico from "../assets/img/css.svg"
 import jsico from "../assets/img/JavaScript.svg"
-import reactico from "../assets/img/Php.svg"
+import reactico from "../assets/img/react-1.svg"
 
 
 export const competences = [

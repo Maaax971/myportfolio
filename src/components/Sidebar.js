@@ -1,4 +1,5 @@
-import "../styles/Sidebar.css"
+import '../styles/App.css';
+import '../styles/AppResponsive.css'
 import { competences } from "../datas/Competences"
 
 function Sidebar(){

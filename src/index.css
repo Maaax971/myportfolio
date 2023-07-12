@@ -1,21 +1,36 @@
+/* Import des familles utilisables - Lato / Montserrat / Raleway */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Montserrat:wght@500&family=Raleway&display=swap');
+
+/* Changement de la couleur des points du Swiper */
+
 :root {
   --swiper-theme-color: hsl(37, 59%, 60%) !important;
 }
+
+/* Changement globaux */
 
 *{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
-
+html {
+  height: 100vh;
+}
 body {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: hsl(208, 35%, 25%);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Responsive Part */
+
+@media only screen and (max-width: 1200px) {
+  body {
+    display: block;
+    min-height: 100vh;
+  }
+
 }

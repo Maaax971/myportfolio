@@ -2,7 +2,8 @@ import Sidebar from "./Sidebar"
 import WhoIAm from "./WhoIAm"
 import Xperiences from "./Xperiences"
 
-import "../styles/Content.css"
+import '../styles/App.css';
+import '../styles/AppResponsive.css'
 
 function Content(){
     return <div className="content-div">
