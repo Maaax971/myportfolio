@@ -65,6 +65,23 @@ span, li {
 
 /* WhoIAm Component */
 
+.mon-parcours h1 {
+    margin-bottom: 1em;
+}
+
+.linkd-btn {
+    padding: 5px;
+    border: solid 1px white;
+    color: white;
+    text-decoration: none;
+    font-size: 0.8em;
+}
+
+.linkd-btn:hover {
+    border: solid 1px hsl(37, 59%, 60%);
+    background-color: hsl(37, 59%, 60%);
+}
+
 .mon-parcours  h2, 
 .mon-parcours p{
     padding: 1em;

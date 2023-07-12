@@ -56,6 +56,18 @@
     }
 
     /* WhoIAm Component */
+
+    .mon-parcours {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mon-parcours h1 {
+        margin-bottom: 0.5em;
+    }
+
     .mon-parcours h1, 
     .mon-parcours h2 {
         text-align: center;
