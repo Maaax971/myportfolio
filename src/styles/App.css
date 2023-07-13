@@ -1,10 +1,12 @@
 /* App Component  */
+
 .App{
     display: flex;
     height: 100%;
     /* padding: 1em 0; */
     background-color: hsl(208, 35%, 25%);
 }
+
 h1, h2, h3, p {
     color: hsl(208, 35%, 100%);
 }
@@ -20,15 +22,16 @@ span, li {
     justify-content: center;
     align-items: center;
 }
+
 .sidebar-div {
     width: 40vw;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .resume-div{
-    width: 60vw;
-    
+    width: 60vw;  
 }
 
 /* SideBar Component */
@@ -39,6 +42,7 @@ span, li {
     padding: 50% 16px;
     border-left: solid white 1px;
 }
+
 .sidebar-div li {
     position: relative;
     margin-bottom: 1em;
@@ -47,6 +51,7 @@ span, li {
     font-size: 2em;
     gap: 20px;
 }
+
 .sidebar-div img {
     width: 30px;
     height: 30px;
@@ -71,7 +76,9 @@ span, li {
 
 .linkd-btn-div {
     display: flex;
+    align-items: center;
     gap: 0.8em;
+    height: 5vh;   
 }
 
 .linkd-btn {
