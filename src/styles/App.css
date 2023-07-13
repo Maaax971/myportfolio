@@ -69,17 +69,22 @@ span, li {
     margin-bottom: 1em;
 }
 
+.linkd-btn-div {
+    display: flex;
+    gap: 0.8em;
+}
+
 .linkd-btn {
     padding: 5px;
-    border: solid 1px white;
+    background-color: hsl(37, 59%, 60%);
     color: white;
     text-decoration: none;
     font-size: 0.8em;
+    box-shadow: 2px 2px 5px black;
 }
 
 .linkd-btn:hover {
     border: solid 1px hsl(37, 59%, 60%);
-    background-color: hsl(37, 59%, 60%);
 }
 
 .mon-parcours  h2, 
@@ -120,7 +125,11 @@ span, li {
     color: hsl(37, 59%, 60%);
     font-style: italic;
 }
-.swiper-pagination {
-    bottom: -20px;
+
+.description-text{
+    padding-top: 10px;
+    font-size: 0.9rem;
 }
+
+
 
